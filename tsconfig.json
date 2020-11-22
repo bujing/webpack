@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es5",
+    "jsx": "react",
+    "module": "esnext"
+  },
+  "include": [
+    "src"
+  ]
+}

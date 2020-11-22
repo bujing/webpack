@@ -1,0 +1,19 @@
+@import 'poplar-css';
+
+body {
+  font-family: Roboto, 'Noto Serif SC', serif;
+}
+
+code {
+  font-family: 'Roboto Mono', 'Noto Sans SC', monospace;
+}
+
+.azure,
+.pink,
+.violet {
+  border: 0;
+  border-radius: 4px;
+}
+.azure { background-color: azure; }
+.pink { background-color: pink; }
+.violet { background-color: violet; }

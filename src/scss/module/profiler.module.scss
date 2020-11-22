@@ -1,0 +1,52 @@
+.container {
+  font-size: 14px;
+  padding: 20px;
+}
+
+.panel {
+  border: 1px solid #ecf1f8;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.09);
+
+  & + & {
+    margin-top: 20px;
+  }
+}
+
+.head {
+  background-color: #f8fafd;
+  border-bottom: 1px solid #ecf1f8;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+.body {
+  padding: 20px;
+}
+
+.btn {
+  width: 40px;
+}
+
+.table {
+  margin-top: 20px;
+  width: 100%;
+
+  th,
+  td {
+    border: 1px solid #ecf1f8;
+    padding: 8px;
+    vertical-align: top;
+  }
+}
+
+.primary {
+  color: red;
+}
+
+.info {
+  color: blue;
+}
+
+.remark {
+  color: gray;
+}
